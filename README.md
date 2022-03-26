@@ -22,6 +22,8 @@ You can also add completion with:
 $ sudo make completion
 ```
 
+Prebuild binaries can also be found at the [releas page](https://github.com/mmpx12/netlas-go/releases/latest)
+
 ## Usage
 
 ```
