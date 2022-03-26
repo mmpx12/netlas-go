@@ -4,7 +4,10 @@ build:
 install:
 	cp netlas /usr/bin/netlas
 
+completion:
+	go run main.go completion bash > /etc/bash_completion.d/netlas
+
 all: build install
 
 clean:
-	rm -f netlas /usr/bin/netlas
+	rm -f netlas /usr/bin/netlas /etc/bash_completion.d/netlas

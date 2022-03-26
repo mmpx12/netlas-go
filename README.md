@@ -12,6 +12,14 @@ $ git clone https://github.com/mmpx12/netlas-go.git
 $ cd netlas-go
 $ make
 $ sudo make install
+# or
+$ sudo make all
+```
+
+You can also add completion with:
+
+```sh
+$ sudo make completion
 ```
 
 ## Usage
